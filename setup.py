@@ -4,13 +4,13 @@ import pkg_resources
 from setuptools import setup, find_packages
 
 setup(
-    name="RealESRGAN",
-    py_modules=["RealESRGAN"],
+    name="realesrgan_aiforever",
+    py_modules=["realesrgan_aiforever"],
     version="1.0",
     description="",
-    author="Sberbank AI, Xintao Wang",
+    author="Sberbank AI, Xintao Wang, Nabil Mansour",
     url='https://github.com/ai-forever/Real-ESRGAN',
-    packages=find_packages(include=['RealESRGAN']),
+    packages=find_packages(include=['realesrgan_aiforever']),
     install_requires=[
         str(r)
         for r in pkg_resources.parse_requirements(

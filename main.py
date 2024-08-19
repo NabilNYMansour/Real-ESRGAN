@@ -2,7 +2,7 @@ import os
 import torch
 from PIL import Image
 import numpy as np
-from RealESRGAN import RealESRGAN
+from realesrgan_aiforever import RealESRGAN
 
 
 def main() -> int:

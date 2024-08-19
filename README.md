@@ -1,3 +1,7 @@
+### Fork
+The purposes of this fork is just to change the name of the pip package so that it does not conflict with the other realesrgan package found here https://pypi.org/project/realesrgan/
+
+
 # Real-ESRGAN
 PyTorch implementation of a Real-ESRGAN model trained on custom dataset. This model shows better results on faces compared to the original version. It is also easier to integrate this model into your projects.
 
@@ -27,7 +31,7 @@ Basic usage:
 import torch
 from PIL import Image
 import numpy as np
-from RealESRGAN import RealESRGAN
+from realesrgan_aiforever import RealESRGAN
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
