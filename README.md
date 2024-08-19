@@ -31,7 +31,7 @@ Basic usage:
 import torch
 from PIL import Image
 import numpy as np
-from realesrgan_aiforever import RealESRGAN
+from realesrgan_upscale import RealESRGAN
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
